@@ -11,7 +11,10 @@ __pycache__/
 
 # Базы данных
 *.sqlite3
+sky_store
 
 # IDE
 .vscode/
 .idea/
+/sky_store
+/qodana.yaml
