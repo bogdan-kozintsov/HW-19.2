@@ -9,7 +9,7 @@ class Product(models.Model):
     image = models.ImageField(upload_to='products/', **NULLABLE)
     category = models.ForeignKey('Category', on_delete=models.SET_NULL, verbose_name='категория', **NULLABLE)
     price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name='цена за покупку')
-    date_of_create = models.DateTimeField(auto_now=True, verbose_name='дата создания')
+    date_of_create = models.DateTimeField(auto_now_add=True, verbose_name='дата создания')
     date_of_last_change = models.DateTimeField(auto_now=True, verbose_name='дата последнего изменения')
 
     class Meta:
