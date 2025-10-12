@@ -1,0 +1,342 @@
+[
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "name": "Смартфон Samsung Galaxy S23",
+      "description": "Флагманский смартфон с мощным процессором и отличной камерой",
+      "image": "products/samsung_s23.jpg",
+      "category": 1,
+      "price": "79999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "name": "Ноутбук Apple MacBook Air M2",
+      "description": "Легкий и мощный ноутбук для работы и творчества",
+      "image": "products/macbook_air.jpg",
+      "category": 1,
+      "price": "129999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "name": "Наушники Sony WH-1000XM4",
+      "description": "Беспроводные наушники с шумоподавлением",
+      "image": "products/sony_headphones.jpg",
+      "category": 1,
+      "price": "24999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "name": "Игра престолов - Джордж Мартин",
+      "description": "Первая книга эпической саги о борьбе за железный трон",
+      "image": "products/got_book.jpg",
+      "category": 2,
+      "price": "899.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "name": "1984 - Джордж Оруэлл",
+      "description": "Антиутопический роман о тоталитарном обществе",
+      "image": "products/1984_book.jpg",
+      "category": 2,
+      "price": "450.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "name": "Мужская джинсовая куртка",
+      "description": "Стильная джинсовая куртка классического кроя",
+      "image": "products/denim_jacket.jpg",
+      "category": 3,
+      "price": "3499.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "Женское платье летнее",
+      "description": "Легкое хлопковое платье для жаркой погоды",
+      "image": "products/summer_dress.jpg",
+      "category": 3,
+      "price": "2299.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Беговая дорожка DFC T10",
+      "description": "Электрическая беговая дорожка для домашних тренировок",
+      "image": "products/treadmill.jpg",
+      "category": 4,
+      "price": "45999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "name": "Гантели наборные 20 кг",
+      "description": "Стальные гантели с наборными дисками",
+      "image": "products/dumbbells.jpg",
+      "category": 4,
+      "price": "2999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Кофемашина DeLonghi",
+      "description": "Автоматическая кофемашина для приготовления эспрессо",
+      "image": "products/coffee_machine.jpg",
+      "category": 5,
+      "price": "34999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "name": "Умные часы Apple Watch Series 9",
+      "description": "Смарт-часы с функцией измерения ЭКГ и давления",
+      "image": "products/apple_watch.jpg",
+      "category": 1,
+      "price": "41999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "name": "Планшет iPad Air",
+      "description": "Мощный планшет для работы и развлечений",
+      "image": "products/ipad_air.jpg",
+      "category": 1,
+      "price": "65999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "name": "Гарри Поттер и философский камень",
+      "description": "Первая книга о приключениях юного волшебника",
+      "image": "products/harry_potter.jpg",
+      "category": 2,
+      "price": "599.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "name": "Мужские кожаные туфли",
+      "description": "Классические кожаные туфли для делового стиля",
+      "image": "products/leather_shoes.jpg",
+      "category": 3,
+      "price": "5499.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "name": "Йога-мат Premium",
+      "description": "Противоскользящий коврик для йоги и фитнеса",
+      "image": "products/yoga_mat.jpg",
+      "category": 4,
+      "price": "1599.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 16,
+    "fields": {
+      "name": "Блендер Philips",
+      "description": "Мощный блендер для приготовления смузи и коктейлей",
+      "image": "products/blender.jpg",
+      "category": 5,
+      "price": "4999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "name": "Игровая консоль PlayStation 5",
+      "description": "Новейшая игровая консоль с 4K графикой",
+      "image": "products/ps5.jpg",
+      "category": 1,
+      "price": "59999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 18,
+    "fields": {
+      "name": "Война и мир - Лев Толстой",
+      "description": "Великий русский роман-эпопея",
+      "image": "products/war_and_peace.jpg",
+      "category": 2,
+      "price": "799.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 19,
+    "fields": {
+      "name": "Спортивный костюм Adidas",
+      "description": "Комфортный спортивный костюм для тренировок",
+      "image": "products/tracksuit.jpg",
+      "category": 3,
+      "price": "4299.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 20,
+    "fields": {
+      "name": "Садовый гриль Weber",
+      "description": "Угольный гриль для приготовления на открытом воздухе",
+      "image": "products/grill.jpg",
+      "category": 5,
+      "price": "18999.00",
+      "date_of_create": "2024-01-15T10:00:00Z",
+      "date_of_last_change": "2024-01-15T10:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Электроника",
+      "description": "Современные гаджеты и устройства"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Книги",
+      "description": "Художественная и образовательная литература"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Одежда",
+      "description": "Модная одежда для всех возрастов"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Спорт",
+      "description": "Спортивные товары и инвентарь"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Дом и сад",
+      "description": "Товары для дома и садоводства"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Красота и здоровье",
+      "description": "Косметика, средства гигиены и товары для поддержания здоровья"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 7,
+    "fields": {
+      "name": "Детские товары",
+      "description": "Все для детей: игрушки, одежда, товары для школы и развития"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 8,
+    "fields": {
+      "name": "Автотовары",
+      "description": "Автомобильные аксессуары, запчасти и средства ухода"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 9,
+    "fields": {
+      "name": "Хобби и творчество",
+      "description": "Товары для рукоделия, творчества и различных увлечений"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 10,
+    "fields": {
+      "name": "Подарки и сувениры",
+      "description": "Идеи для подарков, сувенирная продукция и праздничные товары"
+    }
+  }
+]
