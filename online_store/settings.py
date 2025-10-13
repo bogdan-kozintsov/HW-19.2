@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'online_store.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sky_store',
-        'USER': 'postgres',
-        'PORT': 5433,
+        'ENGINE': config('DB_ENGINE'),  # ← Читает из .env файла
+        'NAME': config('DB_NAME'),  # ← Читает из .env файла
+        'USER': config('DB_USER'),  # ← Читает из .env файла
+        'PORT': config('DB_PORT'),  # ← Читает из .env файла
         'PASSWORD': config('DB_PASSWORD'),  # ← Читает из .env файла
     }
 }
