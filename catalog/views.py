@@ -5,6 +5,18 @@ def home(request):
     return render(request, 'catalog/home.html')
 
 
+def base(request):
+    return render(request, 'catalog/base.html')
+
+
+def catalog(request):
+    return render(request, 'catalog/home.html')
+
+
+def product(request):
+    return render(request, 'catalog/product.html')
+
+
 def contacts(request):
     if request.method == 'POST':
         name = request.POST.get('name')
